@@ -1,4 +1,4 @@
-# 🍽️ BiteBetter
+# BiteBetter
 
 BiteBetter is a recipe discovery web application that helps users find meals based on diet preferences and allergies. 
 It uses the Spoonacular API (with a daily limit of 50 API calls) to fetch recipes and provides a multi-page interactive experience with favorites and nutrition insights.
@@ -7,7 +7,7 @@ This project was developed as a part of "Web Development Engineering Workshop (D
 
 ---
 
-## 👨‍👩‍👧 Team Members
+##  Team Members
 
 - Member 1:\
     Jiya Choksi\
@@ -25,25 +25,25 @@ This project was developed as a part of "Web Development Engineering Workshop (D
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 https://jiyac-code.github.io/BiteBetter/
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔍 Recipe search based on diet types
-- 🚫 Allergy-based filtering system
-- 🍲 Detailed recipe instructions & ingredients
-- 📊 Nutrition analysis with Chart.js
-- ❤️ Add/remove favorites (localStorage)
-- 📄 Multi-page navigation system
-- 🎨 Fully responsive UI design
+-  Recipe search based on diet types
+-  Allergy-based filtering system
+-  Detailed recipe instructions & ingredients
+-  Nutrition analysis with Chart.js
+-  Add/remove favorites (localStorage)
+-  Multi-page navigation system
+-  Fully responsive UI design
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 - HTML
 - CSS
@@ -54,7 +54,7 @@ https://jiyac-code.github.io/BiteBetter/
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 <pre>
 bitebetter/
@@ -69,7 +69,7 @@ bitebetter/
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. User selects diet & allergies
 2. API request is sent to Spoonacular
@@ -81,7 +81,7 @@ bitebetter/
 
 ---
 
-## 🔑 API Setup
+##  API Setup
 
 This project uses Spoonacular API with a daily limit of 50 API calls.
 
