@@ -83,7 +83,7 @@ bitebetter/
 
 ## 🔑 API Setup
 
-This project uses Spoonacular API.
+This project uses Spoonacular API with a daily limit of 50 API calls.
 
 To run locally:
 
