@@ -1,7 +1,7 @@
 # 🍽️ BiteBetter
 
 BiteBetter is a recipe discovery web application that helps users find meals based on diet preferences and allergies. 
-It uses the Spoonacular API to fetch recipes and provides a multi-page interactive experience with favorites and nutrition insights.
+It uses the Spoonacular API (with a daily limit of 50 API calls) to fetch recipes and provides a multi-page interactive experience with favorites and nutrition insights.
 This project was developed as a part of "Web Development Engineering Workshop (Design Thinking and Idea Lab)" course in our college curriculum.
 
 
