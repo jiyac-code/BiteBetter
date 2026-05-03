@@ -10,17 +10,17 @@ This project was developed as a part of "Web Development Engineering Workshop (D
 ## 👨‍👩‍👧 Team Members
 
 - Member 1:
-    Jiya Choksi
-    Roll No: 251081017
-    JavaScript, API Integration & Hosting
+    -Jiya Choksi
+    -Roll No: 251081017
+    -JavaScript, API Integration & Hosting
 - Member 2:
-    Janhavi Atul Mahajan
-    Roll No: 251081027
-    JavaScript, API Integration & UX
+    -Janhavi Atul Mahajan
+    -Roll No: 251081027
+    -JavaScript, API Integration & Design
 - Member 3:
-    Pahel Nisar
-    Roll No: 251081074
-    Design, Styling & UI
+    -Pahel Nisar
+    -Roll No: 251081074
+    -Design, Styling & UI
 
 ---
 
@@ -87,4 +87,4 @@ To run locally:
 
 1. Get API key: https://spoonacular.com/food-api
 2. Replace in `index.js`:
-    `const apiKEY = "YOUR_API_KEY";`
+    -`const apiKEY = "YOUR_API_KEY";`
