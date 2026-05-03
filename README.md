@@ -9,18 +9,19 @@ This project was developed as a part of "Web Development Engineering Workshop (D
 
 ## 👨‍👩‍👧 Team Members
 
-- Member 1:
-    -Jiya Choksi
-    -Roll No: 251081017
-    -JavaScript, API Integration & Hosting
-- Member 2:
-    -Janhavi Atul Mahajan
-    -Roll No: 251081027
-    -JavaScript, API Integration & Design
-- Member 3:
-    -Pahel Nisar
-    -Roll No: 251081074
-    -Design, Styling & UI
+- Member 1:\
+    Jiya Choksi\
+    Roll No: 251081017\
+    JavaScript, API Integration & Hosting
+  
+- Member 2:\
+    Janhavi Atul Mahajan\
+    Roll No: 251081027\
+    JavaScript, API Integration & Design
+- Member 3:\
+    Pahel Nisar\
+    Roll No: 251081074\
+    Design, Styling & UI
 
 ---
 
@@ -55,15 +56,16 @@ https://jiyac-code.github.io/BiteBetter/
 
 ## 📁 Project Structure
 
-
+<pre>
 bitebetter/
 │
+├── README.md 
 ├── index.html
 ├── js/
 ├── css/
 ├── pages/
-├── assets/images/
-
+└── assets/images/
+</pre>
 
 ---
 
@@ -86,5 +88,5 @@ This project uses Spoonacular API.
 To run locally:
 
 1. Get API key: https://spoonacular.com/food-api
-2. Replace in `index.js`:
-    -`const apiKEY = "YOUR_API_KEY";`
+2. Replace in `index.js`:\
+    `const apiKEY = "YOUR_API_KEY";`
