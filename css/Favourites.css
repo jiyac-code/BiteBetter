@@ -1,0 +1,260 @@
+
+body {
+ margin: 0;
+ padding: 0;
+ background-image: url('../assets/images/Favourites.jpeg');
+ background-size: auto;
+ background-repeat: repeat;
+ background-attachment: scroll;
+ background-position: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background-color: #e2b881;
+ display: flex;    
+ flex-direction: column;
+}
+
+nav {
+ background: radial-gradient(rgb(241, 239, 232) 0%, rgba(169, 55, 55, 0.8) 100%);
+ width: 100%;
+}
+
+nav ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 10px 0;
+ display: flex;
+ width: 100%;
+}
+
+nav ul li {
+ flex: 1;
+ text-align: center;
+}
+
+nav a {
+ display: block;
+ padding: 3px;
+ border-radius: 4px;
+ color: #693737;
+ font-size: 20px;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+nav a:hover {
+ transition: 0.5s;
+ background-color: #f7f7e0;
+}
+
+.page-title {
+ text-align: center;
+ color: #1d0606;
+ margin: 30px 0;
+ font-size: 3rem;
+}
+
+.container {
+ max-width: 100%;
+ max-height: 100000000hv;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+
+.recipe-grid {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 25px;
+ width: 100%;
+ height: 100%;
+}
+
+
+.card {
+ background: rgba(255, 255, 255, 0.85);
+ backdrop-filter: blur(10px);
+ border-radius: 24px;
+ padding: 20px;
+ box-shadow: 0 8px 32px rgba(44, 1, 1, 0.7);
+ border: 1px solid rgba(255, 255, 255, 1);
+ display: flex;
+ flex-direction: column;
+ transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ max-height: 580px;
+}
+
+
+.card:hover {
+ transform: translateY(-12px);
+}
+
+.header {
+ font-size: 1.4rem;
+ color: #391212;
+ font-weight: 600;
+ margin-bottom: 10px;
+ text-align: center;
+}
+
+
+.pic-box {
+ transition: all 0.4s ease;
+ border-radius: 18px;
+ overflow: hidden;
+ margin-bottom: 15px;
+}
+
+.pic-box:hover {
+ transform: translateY(-10px) scale(1.005);
+ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
+ background: rgba(175, 203, 187, 0.35);
+ filter: brightness(1);
+ z-index: 5;
+}
+
+
+.pic-box img {
+ width: 100%;
+ height: 220px;
+ object-fit: cover;
+ border-radius: 18px;
+ display: block;
+}
+
+.desc-box {
+ flex-grow: 1;
+ text-align: center;
+}
+
+
+.desc-box p {
+ font-size: 0.95rem;
+ color: #541515;
+ line-height: 1.5;
+}
+
+.view-btn {
+ background-color: #c17d72;
+ color: white;
+ border: none;
+ padding: 14px;
+ border-radius: 14px;
+ width: 100%;
+ font-weight: 600;
+ cursor: pointer;
+ margin: 15px 0;
+ transition: all 0.3s ease;
+}
+
+
+.view-btn:hover {
+ background-color: #955950;
+ transform: scale(1.02);
+}
+
+
+.footer {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-top: 15px;
+ border-top: 1px solid rgba(144, 63, 63, 0.1);
+}
+
+
+.footer-actions {
+ display: flex;
+ gap: 12px;
+ align-items: center;
+}
+
+
+.time-text {
+ font-size: 0.85rem;
+ color: #412626;
+ font-weight: 600;
+}
+
+
+.read-more-btn {
+ background: rgb(255, 255, 255);
+ border: 1px solid #903f3f;
+ color: #a37272;
+ border-radius: 50%;
+ width: 40px;
+ height: 40px;
+ cursor: pointer;
+ font-size: 1.4rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ transition: 0.3s ease;
+ padding-bottom: 8px;
+}
+
+
+.read-more-btn:hover {
+ background: #ae6464;
+ color: #fbfbfb;
+}
+
+
+.readmore-text{
+ font-size: 12px;
+ margin-top: 7px;
+}
+
+
+.remove-btn {
+ width: 38px;
+ height: 38px;
+ border-radius: 50%;
+ border: 1px solid #c17d72;
+ background: white;
+ color: #c17d72;
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 1.2rem;
+ transition: all 0.3s ease;
+}
+
+.remove-btn:hover {
+ background: #955950;
+ color: #fbfbfb;
+ transform: rotate(90deg);
+}
+
+
+.modal-overlay {
+ display: none;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: rgba(0, 0, 0, 0.6);
+ justify-content: center;
+ align-items: center;
+ z-index: 1000;
+}
+
+
+.pop {
+ background: white;
+ padding: 30px;
+ border-radius: 20px;
+ max-width: 500px;
+ width: 90%;
+ position: relative;
+}
+
+
+.close-x {
+ position: absolute;
+ top: 15px;
+ right: 20px;
+ font-size: 25px;
+ cursor: pointer;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipe Card</title>
+<link rel="stylesheet" href="../css/ViewRecipe.css">
+</head>
+
+<body>
+
+<form id="Recipepg" action="#" method="POST">
+<h1>Recipe</h1>
+<div class="flex-row">
+  <div class="pic-box">
+    <img src="" alt="">
+  </div>
+  <div class="ingredients">
+    <h3>Ingredients</h3>
+    <b><ul style="margin: 0; line-height: 1.7;" >
+     </ul></b>
+  </div>
+</div>
+<div class="desc">
+  <h3>Instructions</h3>
+  <b><ol style="margin: 0; line-height: 1.7;">
+  </ol></b>
+</div>
+<button type="submit" class="btn">Nutrition Summary</button>
+</form>
+
+<div id="nutritionModal" class="modal">
+   <div class="modal-wrapper">
+       <span class="close-modal" id="closeBtn">&times;</span>
+       <div id="modalContent"></div>
+   </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+</body>
+<script src="../js/ViewRecipe.js"></script>
+</html>
