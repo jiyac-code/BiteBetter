@@ -90,17 +90,3 @@ To run locally:
 1. Get API key: https://spoonacular.com/food-api
 2. Replace in `index.js`:\
     `const apiKEY = "YOUR_API_KEY";`
-
-## GitHub Contribution Demo
-
-This update demonstrates the GitHub collaboration workflow using:
-
-- Forking a repository
-- Cloning the forked repository
-- Creating a new branch
-- Making changes
-- Committing changes
-- Pushing the branch
-- Creating a Pull Request
-
-This section was added as part of learning Git and GitHub version control practices.
