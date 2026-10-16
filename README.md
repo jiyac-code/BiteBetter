@@ -10,16 +10,16 @@ This project was developed as a part of "Web Development Engineering Workshop (D
 ##  Team Members
 
 - Member 1:\
-    Jiya Choksi\
+    [Jiya Choksi](https://github.com/jiyac-code)\
     Roll No: 251081017\
     JavaScript, API Integration & Hosting
   
 - Member 2:\
-    Janhavi Atul Mahajan\
+    [Janhavi Atul Mahajan](https://github.com/JanhaviM-07)\
     Roll No: 251081027\
     JavaScript, API Integration & Design
 - Member 3:\
-    Pahel Nisar\
+    [Pahel Nisar](https://github.com/PahelNisar-07)\
     Roll No: 251081074\
     Design, Styling & UI
 
@@ -77,7 +77,7 @@ bitebetter/
 4. Users can:
    - View recipe details
    - Save favorites
-   - View nutrition charts
+   - View nutrition charts and nutrients intake
 
 ---
 
